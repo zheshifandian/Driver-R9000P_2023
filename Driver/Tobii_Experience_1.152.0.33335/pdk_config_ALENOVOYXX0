@@ -1,0 +1,385 @@
+{
+    "header": {
+        "id": "ALENOVOYXX0",
+        "version": 0,
+        "owner": "Tobii AB",
+        "created": "2023-05-12T07:34:46.438479Z"
+    },
+    "conditions": {
+        "platform_type": "RGB"
+    },
+    "product": {
+        "rgb": {
+            "integration_type": "Internal_display",
+            "primary_device_type": "AWARE_CAMERA_POLYCHROMATIC",
+            "sensor_location_restriction": "AWARE_SENSOR_LOC_ANY",
+            "start_runtime_paused": true,
+            "using_proximity_sensor": false
+        },
+        "runtime_constraints": {
+            "supported_devices": [
+                {
+                    "vid": "0x174F",
+                    "pid": "0x246A"
+                },
+                {
+                    "vid": "0x5986",
+                    "pid": "0x118A"
+                },
+                {
+                    "vid": "0x30C9",
+                    "pid": "0x00A6"
+                },
+                {
+                    "vid": "0x04F2",
+                    "pid": "0xB7B8"
+                },
+                {
+                    "vid": "0x30C9",
+                    "pid": "0x00AC"
+                },
+                {
+                    "vid": "0x04F2",
+                    "pid": "0xB7B6"
+                }
+            ]
+        },
+        "device_parameters": [
+            {
+                "device": {
+                    "vid": "0x174F",
+                    "pid": "0x246A"
+                },
+                "host_algobox_parameters": {
+                    "focal_length_px": {
+                        "x": 921.0,
+                        "y": 921.0
+                    },
+                    "principal_point_px": {
+                        "x": 320.0,
+                        "y": 180.0
+                    },
+                    "dimensions_px": {
+                        "width": 640.0,
+                        "height": 360.0
+                    },
+                    "loki_camera_focus": 2.569,
+                    "pixel_dimensions_nm": {
+                        "x": 1400.0,
+                        "y": 1400.0
+                    },
+                    "focal_length_mm": 1.29,
+                    "principal_point_offset_mm": {
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                }
+            },
+            {
+                "device": {
+                    "vid": "0x5986",
+                    "pid": "0x118A"
+                },
+                "host_algobox_parameters": {
+                    "focal_length_px": {
+                        "x": 935.0,
+                        "y": 935.0
+                    },
+                    "principal_point_px": {
+                        "x": 320.0,
+                        "y": 180.0
+                    },
+                    "dimensions_px": {
+                        "width": 640.0,
+                        "height": 360.0
+                    },
+                    "loki_camera_focus": 2.66,
+                    "pixel_dimensions_nm": {
+                        "x": 1400.0,
+                        "y": 1400.0
+                    },
+                    "focal_length_mm": 1.31,
+                    "principal_point_offset_mm": {
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                }
+            },
+            {
+                "device": {
+                    "vid": "0x30C9",
+                    "pid": "0x00A6"
+                },
+                "host_algobox_parameters": {
+                    "focal_length_px": {
+                        "x": 935.0,
+                        "y": 935.0
+                    },
+                    "principal_point_px": {
+                        "x": 320.0,
+                        "y": 180.0
+                    },
+                    "dimensions_px": {
+                        "width": 640.0,
+                        "height": 360.0
+                    },
+                    "loki_camera_focus": 2.66,
+                    "pixel_dimensions_nm": {
+                        "x": 1400.0,
+                        "y": 1400.0
+                    },
+                    "focal_length_mm": 1.31,
+                    "principal_point_offset_mm": {
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                }
+            },
+            {
+                "device": {
+                    "vid": "0x04F2",
+                    "pid": "0xB7B8"
+                },
+                "host_algobox_parameters": {
+                    "focal_length_px": {
+                        "x": 921.0,
+                        "y": 921.0
+                    },
+                    "principal_point_px": {
+                        "x": 320.0,
+                        "y": 180.0
+                    },
+                    "dimensions_px": {
+                        "width": 640.0,
+                        "height": 360.0
+                    },
+                    "loki_camera_focus": 2.569,
+                    "pixel_dimensions_nm": {
+                        "x": 1400.0,
+                        "y": 1400.0
+                    },
+                    "focal_length_mm": 1.29,
+                    "principal_point_offset_mm": {
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                }
+            },
+            {
+                "device": {
+                    "vid": "0x30C9",
+                    "pid": "0x00AC"
+                },
+                "host_algobox_parameters": {
+                    "focal_length_px": {
+                        "x": 1080.0,
+                        "y": 1080.0
+                    },
+                    "principal_point_px": {
+                        "x": 320.0,
+                        "y": 180.0
+                    },
+                    "dimensions_px": {
+                        "width": 640.0,
+                        "height": 360.0
+                    },
+                    "loki_camera_focus": 2.075,
+                    "pixel_dimensions_nm": {
+                        "x": 1120.0,
+                        "y": 1120.0
+                    },
+                    "focal_length_mm": 1.21,
+                    "principal_point_offset_mm": {
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                }
+            },
+            {
+                "device": {
+                    "vid": "0x04F2",
+                    "pid": "0xB7B6"
+                },
+                "host_algobox_parameters": {
+                    "focal_length_px": {
+                        "x": 1129.0,
+                        "y": 1129.0
+                    },
+                    "principal_point_px": {
+                        "x": 320.0,
+                        "y": 180.0
+                    },
+                    "dimensions_px": {
+                        "width": 640.0,
+                        "height": 360.0
+                    },
+                    "loki_camera_focus": 2.123,
+                    "pixel_dimensions_nm": {
+                        "x": 1116.0,
+                        "y": 1116.0
+                    },
+                    "focal_length_mm": 1.26,
+                    "principal_point_offset_mm": {
+                        "x": 0.0,
+                        "y": 0.0
+                    }
+                }
+            }
+        ],
+        "features": [
+            {
+                "function_class": "FEATURE",
+                "feature": "headpose",
+                "enabled_in_platmod": true,
+                "sec_license_required": [],
+                "other_flags": []
+            },
+            {
+                "function_class": "FEATURE",
+                "feature": "user_presence",
+                "enabled_in_platmod": true,
+                "sec_license_required": [],
+                "other_flags": []
+            },
+            {
+                "function_class": "RGB",
+                "feature": "presence_2",
+                "enabled_in_platmod": true,
+                "sec_license_required": [],
+                "other_flags": []
+            },
+            {
+                "function_class": "FEATURE",
+                "feature": "image_collection",
+                "enabled_in_platmod": true,
+                "sec_license_required": [],
+                "other_flags": []
+            },
+            {
+                "function_class": "RGB",
+                "feature": "low_freq_head_position",
+                "enabled_in_platmod": true,
+                "sec_license_required": [],
+                "other_flags": []
+            },
+            {
+                "function_class": "RGB",
+                "feature": "low_freq_head_rotation",
+                "enabled_in_platmod": true,
+                "sec_license_required": [],
+                "other_flags": []
+            },
+            {
+                "function_class": "FEATURE",
+                "feature": "multiple_faces",
+                "enabled_in_platmod": true,
+                "sec_license_required": [],
+                "other_flags": []
+            },
+            {
+                "function_class": "FEATURE",
+                "feature": "custom",
+                "enabled_in_platmod": true,
+                "sec_license_required": [],
+                "other_flags": []
+            },
+            {
+                "function_class": "FEATURE",
+                "feature": "algo_debug",
+                "enabled_in_platmod": true,
+                "sec_license_required": [],
+                "other_flags": []
+            },
+            {
+                "function_class": "FEATURE",
+                "feature": "face_id",
+                "enabled_in_platmod": true,
+                "sec_license_required": [],
+                "other_flags": []
+            }
+        ],
+        "host_algobox_parameters": {
+            "host_algo_name": "AwarenessRgbBundle",
+            "camera_version": 1,
+            "focal_length_px": {
+                "x": 887,
+                "y": 887
+            },
+            "principal_point_px": {
+                "x": 320,
+                "y": 180
+            },
+            "dimensions_px": {
+                "width": 640,
+                "height": 360
+            },
+            "pose": {
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "rotation": {
+                    "kappa": 0,
+                    "phi": 0,
+                    "omega": 0
+                }
+            },
+            "skew_px": 0,
+            "gain": {
+                "min": 1,
+                "max": 15
+            },
+            "exposure_time_us": {
+                "min": 4000,
+                "max": 30000
+            },
+            "led_power_on": {
+                "min": 0,
+                "max": 0
+            },
+            "loki_camera_focus": 2.52,
+            "screen_plane_mm": {
+                "lower_left": {
+                    "x": -165,
+                    "y": -200,
+                    "z": 0
+                },
+                "upper_left": {
+                    "x": -165,
+                    "y": -10,
+                    "z": 0
+                },
+                "upper_right": {
+                    "x": 165,
+                    "y": -10,
+                    "z": 0
+                },
+                "curvature": {
+                    "semiminor": 0,
+                    "semimajor": 0
+                }
+            },
+            "pixel_dimensions_nm": {
+                "x": 1116,
+                "y": 1116
+            },
+            "focal_length_mm": 0.99,
+            "principal_point_offset_mm": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "common": {
+			"platform_type": "ALENOVOYXX0",
+            "default_license_level": "CONSUMER",
+            "runtime_ipc_service_disabled": false
+        }
+    },
+    "statistics": {
+        "enabled": true
+    },
+    "meta": {}
+}
+--CONFIG-SIGNATURE--
+TFJlm/5gCrkR7mXE4rRnawxN3PbVI/FzeW0ySdSQKJodVYgp5jeNvrf+0N+uV5JUzpuU6EuHIMNigzzwOcMdgzoy79azxw8C5IqgDvzAK4WHDX0YmUx5XZVd1yD9A3+xYXO+WLBFYxB6unfxUiZKrqvMf3gs28SpnwRVNaSxjeC3dElSv1A4VJaajP95tPltun0FAKctElMKlizTntmj7JKZ+O1PUE/LiREMxpUkGHsDe6Mrt0y2dzHWbPERl0ftNymL4ChsyGkVITJtgxtq5VZUvN1BqcjrnGqgk6G437M4zusVvj8jhTzwfcyM861WGbQXwphuxiaAg0QQvAxzIw==
